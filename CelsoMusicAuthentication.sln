@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelsoMusicAuthentication", "CelsoMusicAuthentication\CelsoMusicAuthentication.csproj", "{68343BE3-F2F1-49D0-876F-F9874B331D8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelsoMusicAuthentication.API", "CelsoMusicAuthentication\CelsoMusicAuthentication.API.csproj", "{68343BE3-F2F1-49D0-876F-F9874B331D8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelsoMusicAuthentication.Application", "CelsoMusicAuthentication.Application\CelsoMusicAuthentication.Application.csproj", "{5F362D03-782F-4B9A-9A6E-321AD46D16C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelsoMusicAuthentication.Domain", "CelsoMusicAuthentication.Domain\CelsoMusicAuthentication.Domain.csproj", "{502A22A9-CAA6-4572-AA33-D5F8A68F95BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelsoMusicAuthentication.Infra", "CelsoMusicAuthentication.Infra\CelsoMusicAuthentication.Infra.csproj", "{44595A3B-84DA-49A3-9E4F-D7CB34E17BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelsoMusicAuthentication.Repository", "CelsoMusicAuthentication.Repository\CelsoMusicAuthentication.Repository.csproj", "{E0ABF5F0-C7E0-450F-BEE6-B3F0C82A4F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelsoMusicAuthentication.Test", "CelsoMusicAuthentication.Test\CelsoMusicAuthentication.Test.csproj", "{233DB064-76D4-4667-B760-A19D3D07DA1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{68343BE3-F2F1-49D0-876F-F9874B331D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68343BE3-F2F1-49D0-876F-F9874B331D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68343BE3-F2F1-49D0-876F-F9874B331D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F362D03-782F-4B9A-9A6E-321AD46D16C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F362D03-782F-4B9A-9A6E-321AD46D16C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F362D03-782F-4B9A-9A6E-321AD46D16C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F362D03-782F-4B9A-9A6E-321AD46D16C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{502A22A9-CAA6-4572-AA33-D5F8A68F95BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502A22A9-CAA6-4572-AA33-D5F8A68F95BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502A22A9-CAA6-4572-AA33-D5F8A68F95BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502A22A9-CAA6-4572-AA33-D5F8A68F95BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44595A3B-84DA-49A3-9E4F-D7CB34E17BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44595A3B-84DA-49A3-9E4F-D7CB34E17BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44595A3B-84DA-49A3-9E4F-D7CB34E17BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44595A3B-84DA-49A3-9E4F-D7CB34E17BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0ABF5F0-C7E0-450F-BEE6-B3F0C82A4F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0ABF5F0-C7E0-450F-BEE6-B3F0C82A4F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0ABF5F0-C7E0-450F-BEE6-B3F0C82A4F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0ABF5F0-C7E0-450F-BEE6-B3F0C82A4F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{233DB064-76D4-4667-B760-A19D3D07DA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233DB064-76D4-4667-B760-A19D3D07DA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233DB064-76D4-4667-B760-A19D3D07DA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233DB064-76D4-4667-B760-A19D3D07DA1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
